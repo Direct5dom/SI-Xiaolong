@@ -8,8 +8,9 @@ Github被我当成了一个个人博客，也许会传些代码上来，但更�
 搬运工：[Direct5的素材工坊]( space.bilibili.com/513864260 )<br>
 <br>
 为了不占用Github宝贵的存储资源，我相关的一些资料放在了百度网盘的公链，有需要的可以去取。<br>
-本人更青睐OneDrive，我觉得国内是没有“网盘”这一类东西存在的，百度网盘把限制从存储量变成下载速度，这本质上和流氓无异，奈何OneDrive的分享链接国内用不了，故采用百度网盘。<br>
-<主链接：[根目录]( https://pan.baidu.com/s/1YGnboErVHkdYvKvpu1iBSw ) 提取码：pqmn<br>
-<文件结构：<br>
+>本人更青睐OneDrive，我觉得国内是没有“网盘”这一类东西存在的，百度网盘把限制从存储量变成下载速度，这本质上和流氓无异，奈何OneDrive的分享链接国内用不了，故采用百度网盘。
+
+主链接：[根目录]( https://pan.baidu.com/s/1YGnboErVHkdYvKvpu1iBSw ) 提取码：pqmn<br>
+文件结构：<br>
 >根目录
 >>笔记备份
