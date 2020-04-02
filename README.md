@@ -1,2 +1,2 @@
 # SI-Xiaolong
-note
+想法+记录
