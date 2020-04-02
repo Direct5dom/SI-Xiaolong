@@ -8,4 +8,7 @@ Github被我当成了一个个人博客，也许会传些代码上来，但更�
 搬运工：[Direct5的素材工坊]( space.bilibili.com/513864260 )<br>
 <br>
 为了不占用Github宝贵的存储资源，我相关的一些资料放在了百度网盘的公链，有需要的可以去取。<br>
-主链接：[根目录]( https://pan.baidu.com/s/1YGnboErVHkdYvKvpu1iBSw ) 提取码：pqmn
+主链接：[根目录]( https://pan.baidu.com/s/1YGnboErVHkdYvKvpu1iBSw ) 提取码：pqmn<br>
+文件结构：<br>
+>根目录
+>>笔记备份
