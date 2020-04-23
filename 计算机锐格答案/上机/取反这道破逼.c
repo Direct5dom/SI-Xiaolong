@@ -56,4 +56,42 @@ long reverse(long N)
 //很简单，但是你注意到我说【从数学上】，没错，这个函数也会忽略高位的【0】
 
 //没办法，最后只能选择switch+if的方式了。
-
+#include <stdio.h>
+void main()
+{
+	int a, a1, a2, a3, a4, a5, n;
+	scanf("%d", &a);
+	if (a > 0 && a < 10)
+		n = 1;
+	else if (a < 100)
+		n = 2;
+	else if (a < 1000)
+		n = 3;
+	else if (a < 10000)
+		n = 4;
+	else
+		n = 5;
+	a1 = a % 10;
+	a2 = a / 10 % 10;
+	a3 = a / 100 % 10;
+	a4 = a / 1000 % 10;
+	a5 = a / 10000;
+	switch (n)
+	{
+	case 5:
+		printf("%d%d%d%d%d\n", a1, a2, a3, a4, a5);
+		break;
+	case 4:
+		printf("%d%d%d%d\n", a1, a2, a3, a4);
+		break;
+	case 3:
+		printf("%d%d%d\n", a1, a2, a3);
+		break;
+	case 2:
+		printf("%d%d\n", a1, a2);
+		break;
+	case 1:
+		printf("%d\n", a1);
+	}
+}
+//虽然解决了问题，但依旧不完美，因为其通用性受限，只不过刚好满足题目【不超过六位】的需求而已。
