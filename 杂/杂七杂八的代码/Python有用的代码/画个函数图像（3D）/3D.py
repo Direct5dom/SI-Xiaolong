@@ -17,13 +17,13 @@ ax = plt.axes(projection="3d")
 a=5
 b=5
 
-x = np.arange(1,2,0.001)
-y = np.arange(1,2,0.001)
+x = np.arange(-5,5,0.01)
+y = np.arange(-5,5,0.01)
 X,Y = np.meshgrid(x,y)    # 2生成绘制3D图形所需的网络数据
 #R = (X**2) * (Y)
 #H = (X**2) + (Y**2)
 #J = np.sqrt(H)
-Z_1 = np.sqrt
+Z_1 = np.sqrt(X**2 + Y**2)
 #Z_2 = 0*X + 1
 
 
@@ -33,9 +33,9 @@ ax.plot_surface(X,Y,Z_1,alpha=0.5,cmap="rainbow") #生成表面，alpha用于控
 #ax.contour(X,Y,Z_1,zdir="y",offset=1,cmap="rainbow")    #y轴投影
 #ax.contour(X,Y,Z_1,zdir="z",offset=0.,cmap="rainbow")   #z轴投影
 ax.set_xlabel("X")  #设置X、Y、Z 坐标范围
-ax.set_xlim(1,2)   #设置X、Y、Z 轴
+ax.set_xlim(-5,5)   #设置X、Y、Z 轴
 ax.set_ylabel("Y")
-ax.set_ylim(1,2)
+ax.set_ylim(-5,5)
 ax.set_zlabel("Z")
-#ax.set_zlim(0,1)
+#ax.set_zlim(0,4)
 plt.show()
